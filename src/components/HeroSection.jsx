@@ -11,7 +11,7 @@ export const HeroSection = () => {
 
             <div className="p-1 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl">
               <img
-                  src="/Image/Avatar.jpeg"
+                  src="/Image/Avatar2.jpeg"
                   alt="Apoorva Tripathi"
                   className="w-56 h-72 rounded-2xl object-cover opacity-0 animate-fade-in"
               />
