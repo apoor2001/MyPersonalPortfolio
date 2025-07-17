@@ -8,12 +8,7 @@ export const HeroSection = () => {
       >
         <div className="container max-w-4xl mx-auto text-center z-10">
           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-            {/* Image */}
-            {/*<img*/}
-            {/*    src="/Image/Avatar.jpeg"*/}
-            {/*    alt="Apoorva Tripathi"*/}
-            {/*    className="w-56 h-72 rounded-2xl border-4 border-primary/30 object-cover shadow-xl backdrop-blur-sm opacity-0 animate-fade-in"*/}
-            {/*/>*/}
+
             <div className="p-1 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl">
               <img
                   src="/Image/Avatar.jpeg"

@@ -6,9 +6,11 @@ const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
+  { name: "Experience", href: "#experience" }, // 👈 Added this line
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
+
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
