@@ -37,6 +37,7 @@ export const Experience = () => {
                                     <p className="text-base max-w-md">
                                         Click to flip and learn more about my experience.
                                     </p>
+                                    <p className="text-sm mt-4 italic opacity-80">↻ Flip to know more</p>
                                 </div>
                             </div>
 
@@ -85,6 +86,7 @@ export const Experience = () => {
                                     <p className="text-base max-w-md">
                                         Click to flip and see my academic background.
                                     </p>
+                                    <p className="text-sm mt-4 italic opacity-80">↻ Flip to know more</p>
                                 </div>
                             </div>
 
@@ -113,19 +115,19 @@ export const Experience = () => {
 
             {/* Flip CSS */}
             <style jsx>{`
-        .perspective {
-          perspective: 1000px;
-        }
-        .transform-style {
-          transform-style: preserve-3d;
-        }
-        .backface-hidden {
-          backface-visibility: hidden;
-        }
-        .rotate-y-180 {
-          transform: rotateY(180deg);
-        }
-      `}</style>
+                .perspective {
+                    perspective: 1000px;
+                }
+                .transform-style {
+                    transform-style: preserve-3d;
+                }
+                .backface-hidden {
+                    backface-visibility: hidden;
+                }
+                .rotate-y-180 {
+                    transform: rotateY(180deg);
+                }
+            `}</style>
         </section>
     );
 };
