@@ -75,7 +75,7 @@ export const Experience = () => {
                             {/* Front Side */}
                             <div className="absolute inset-0 bg-card rounded-xl overflow-hidden shadow-lg backface-hidden">
                                 <img
-                                    src="/experience/education.jpg"
+                                    src="/Image/Acropolis.jpeg"
                                     alt="Education"
                                     className="w-full h-full object-cover"
                                 />
